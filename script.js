@@ -11,7 +11,7 @@ const getRandomNumberInRange = (min, max) => Math.floor(Math.random() * (max - m
 for (let nftCount = 0; nftCount < 200; nftCount++){
     let nftDivContainer = document.createElement("div")
     let nftContainer = document.createElement("div")
-    nftContainer.style.top = `${(nftCount * 50)}%`
+    nftContainer.style.top = `${(nftCount * 50) + 23}%`
     nftContainer.style.left = `47%`
     nftContainer.style.scale = `3`
 
@@ -20,6 +20,7 @@ for (let nftCount = 0; nftCount < 200; nftCount++){
     container.appendChild(nftContainer)
 
     for (let i = 0; i < 5; i++) {
+
         let nft = document.createElement("img")
         nft.style.filter = `drop-shadow(0 100px ${getRandomColor()})`
         nft.src = `img/${i}.png`

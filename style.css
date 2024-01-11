@@ -43,3 +43,16 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+#header {
+    position: fixed;
+    background-color: #0c0808;
+    min-width: 100vw;
+    min-height: 50px;
+    z-index: 100;
+    color: ghostwhite;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Fira Code Retina";
+}
