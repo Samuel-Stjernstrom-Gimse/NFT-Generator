@@ -29,8 +29,17 @@
     position: absolute;
     max-height: 300px;
     max-width: 300px;
-    border: 3px solid #5d2e14;
+    border: 3px solid #d5fffe;
     overflow: hidden;
+
+    transition: 0.5s;
+}
+
+
+
+.frame:hover {
+    transform: scale(110%);
+    transition: 0.5s;
     box-shadow: 0 0 100px #ffbc37;
 }
 
