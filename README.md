@@ -1,4 +1,4 @@
-**Avatar Generator
+##Avatar Generator
  * Welcome to the Pixel Party Zone!
  * 🎉✨ Let the JavaScript sorcery commence as it conjures up a parade
  * of quirky NFTs. Each div is a pixelated VIP section, where randomness
